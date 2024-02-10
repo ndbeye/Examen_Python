@@ -6,11 +6,6 @@ tab_courbe = np.linspace(0, 1, 1000)
 x_courbe = tab_courbe
 y_courbe = tab_courbe**5
 
-# Paramétrisation du carré
-tab_square = np.linspace(0, 1, 5)
-x_square = tab_square
-y_square = tab_square
-
 # Tracer la courbe et le carré
 plt.plot(x_courbe, y_courbe, label='Courbe $x^5$')
 plt.plot(x_square, y_square, 'ro-', label='Carré')
